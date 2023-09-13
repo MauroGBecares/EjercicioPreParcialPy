@@ -1,5 +1,6 @@
 import funciones as func
 
+
 lista_empleados = []
 cant_empleados_cargados = 0
 
@@ -16,7 +17,7 @@ while opcionSalir != "salir":
     elif opcion == 4:
         opcionSalir = "salir"
     else:
-        print("La opcion ingresada es incorrecta.")
+        print("\nLa opcion ingresada es incorrecta.")
 
-print("Adios !!")
+print("\nAdios !!")
 
